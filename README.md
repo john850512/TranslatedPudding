@@ -14,10 +14,10 @@ So TranslatedPudding(翻譯布丁), a line chatbot is created to help you transl
 This project's name is inspired by [都拉Ａ夢-翻譯蒟蒻](http://zh.doraemon.wikia.com/wiki/%E7%BF%BB%E8%AD%AF%E8%92%9F%E8%92%BB?variant=zh-tw), just because I like eat pudding more than konjac:|
 
 ## How to Use？
-The chatbot service is not open yet(maybe will open in the feature), but I provide source codes and you can deploy TranslatedPudding any modify it by youself.
+The chatbot service is not open yet(maybe will open in the feature), but I provide source codes and you can deploy TranslatedPudding any modify it by youself(see below).
 
 When deployment is finish, just add this chatbot into any group and then use it!
-<p align="center"><img src="./img/img2.png" alt="Smiley face" height="400" width="300"></p>
+<p align="center"><img src="./img/img2.png" height="350" width="250"></p>
 
 In this chatbot, you can typing three keyword to open/close translation service, or see helping message:
 1. `翻譯布丁`: show what keywords you can use. 
@@ -33,9 +33,9 @@ btw, when translation mode is on, there exist some easter egg to make funny(try 
 I deploy this chatbot on [Heroku](https://dashboard.heroku.com/login) now, of course you can also deploy on your own service.
 
 
-
 ## Use Language & Packages
 - Python
+  - Line messaging api, flask, SpeechRecognition, pydub, ffprobe, ffmpeg
 
 ## Detail
 I will write a blog to describe this project in detail...if I still remember:|
