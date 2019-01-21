@@ -1,0 +1,5 @@
+line-bot-sdk
+flask
+SpeechRecognition
+pydub
+ffprobe
