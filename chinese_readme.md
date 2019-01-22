@@ -25,7 +25,8 @@ Line提供了語音訊息的功能使得使用者可以不用輸入任何文字�
 
 此外，當翻譯功能開啟時，有些有趣的彩蛋在裡頭(試著發送貼圖訊息看看...?)
 ## Demo
-
+當你開啟翻譯服務後，任何人都可以送出語音訊息，翻譯布丁會自動轉換成文字訊息呈現。如果不想使用者個服務時，只要輸入'布丁消化完了'就可以關閉服務。
+<p align="center"><img src="./img/img5.png" height="500" width="350"></p>
 
 ## Deployment
 I deploy this chatbot on [Heroku](https://dashboard.heroku.com/login) now, of course you can also deploy on your own service.
