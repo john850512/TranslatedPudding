@@ -27,6 +27,8 @@ In this chatbot, you can typing three keyword to open/close translation service,
 btw, when translation mode is on, there exist some easter egg to make funny(try to send some sticker message!)
 
 ## Demo
+after open translation service, you can send voice message and TranslatedPudding will help you transfer to text message automatically. If you don't want to use this service, just type '布丁消化完了' and close service.
+<p align="center"><img src="./img/img5.png" height="500" width="350"></p>
 
 
 ## Deployment
