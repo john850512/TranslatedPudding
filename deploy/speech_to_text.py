@@ -3,7 +3,8 @@
 
 import speech_recognition as sr
 from pydub import AudioSegment
-import ffmpeg, os
+from langconv import Converter
+import os
 
 def convert_audio_extension(file_name): # convert file from .m4a to .wav   
     print('音訊檔案位置: ', file_name)
@@ -25,10 +26,11 @@ def speech_to_text(file_name): # function for audio recognition
     
     harvard = sr.AudioFile(wav_file_name)
     
-    with harvard as source:
-        audio = r.record(source)
     try:
-        recognize_text = r.recognize_google(audio, language = 'zh-TW')
+        with harvard as source:
+            audio = r.record(source)
+            recognize_text = r.recognize_google(audio, language = 'zh-tw')
+            recognize_text = Converter('zh-hant').convert(recognize_text)
     except:
         recognize_text = "無法辨識內容"
     return recognize_text
